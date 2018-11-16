@@ -1,0 +1,8 @@
+
+# js
+node_modules
+*.log
+
+# rust
+/target
+**/*.rs.bk

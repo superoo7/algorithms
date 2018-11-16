@@ -1,0 +1,16 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lai Weng Han <jlwhoo7@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "tn": "ts-node -r tsconfig-paths/register"
+  },
+  "dependencies": {
+    "ts-jest": "^23.10.4",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.7.0",
+    "typescript": "^3.1.6"
+  }
+}
