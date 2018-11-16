@@ -5,6 +5,7 @@
   "author": "Lai Weng Han <jlwhoo7@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "test:ts": "jest",
     "ts": "ts-node -r tsconfig-paths/register",
     "rs": "./rr.sh"
   },
@@ -13,5 +14,9 @@
     "ts-node": "^7.0.1",
     "tsconfig-paths": "^3.7.0",
     "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "jest": "^23.6.0"
   }
 }
