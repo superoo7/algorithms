@@ -5,7 +5,8 @@
   "author": "Lai Weng Han <jlwhoo7@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "tn": "ts-node -r tsconfig-paths/register"
+    "ts": "ts-node -r tsconfig-paths/register",
+    "rs": "./rr.sh"
   },
   "dependencies": {
     "ts-jest": "^23.10.4",
